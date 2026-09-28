@@ -1,0 +1,33 @@
+2026-04-24 08:20:18,118 [restartedMain] INFO  com.tykrohit.in.Application                        - Starting Application using Java 21.0.6 with PID 17344 (E:\JRTP_Java\01_SB_Logging_Moonitoring\target\classes started by T SRAVAN SURESH in E:\JRTP_Java\01_SB_Logging_Moonitoring)
+2026-04-24 08:20:18,123 [restartedMain] INFO  com.tykrohit.in.Application                        - No active profile set, falling back to 1 default profile: "default"
+2026-04-24 08:20:18,194 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-24 08:20:18,195 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-24 08:20:18,679 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 9.0.1.Final
+2026-04-24 08:20:19,620 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer                    - Tomcat initialized with port 8080 (http)
+2026-04-24 08:20:19,660 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-24 08:20:19,661 [restartedMain] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2026-04-24 08:20:19,661 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-04-24 08:20:19,739 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer       - Root WebApplicationContext: initialization completed in 1537 ms
+2026-04-24 08:20:20,533 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-24 08:20:20,577 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer                    - Tomcat started on port 8080 (http) with context path '/'
+2026-04-24 08:20:20,587 [restartedMain] INFO  com.tykrohit.in.Application                        - Started Application in 3.269 seconds (process running for 4.465)
+2026-04-24 08:20:20,592 [restartedMain] WARN  o.s.core.events.SpringDocAppInitializer            - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-04-24 08:20:20,592 [restartedMain] WARN  o.s.core.events.SpringDocAppInitializer            - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-04-24 08:20:50,409 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-24 08:20:50,410 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2026-04-24 08:20:50,414 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 4 ms
+2026-04-24 08:20:50,457 [http-nio-8080-exec-1] INFO  c.t.in.controller.MessageController                - getMessageWelcome()  started
+2026-04-24 08:20:50,457 [http-nio-8080-exec-1] INFO  c.t.in.controller.MessageController                - getMessageWelcome() method executed for wellccome msg
+2026-04-24 08:20:50,457 [http-nio-8080-exec-1] WARN  c.t.in.controller.MessageController                - warn msg from getMessageWelcome()  
+2026-04-24 08:20:50,457 [http-nio-8080-exec-1] INFO  c.t.in.controller.MessageController                - getMessageWelcome()  ended
+2026-04-24 08:20:50,459 [http-nio-8080-exec-1] ERROR c.t.in.controller.MessageController                - / by zero
+2026-04-24 08:20:53,074 [http-nio-8080-exec-2] INFO  c.t.in.controller.MessageController                - getMessageWelcome()  started
+2026-04-24 08:20:53,076 [http-nio-8080-exec-2] INFO  c.t.in.controller.MessageController                - getMessageWelcome() method executed for wellccome msg
+2026-04-24 08:20:53,076 [http-nio-8080-exec-2] WARN  c.t.in.controller.MessageController                - warn msg from getMessageWelcome()  
+2026-04-24 08:20:53,076 [http-nio-8080-exec-2] INFO  c.t.in.controller.MessageController                - getMessageWelcome()  ended
+2026-04-24 08:20:53,077 [http-nio-8080-exec-2] ERROR c.t.in.controller.MessageController                - / by zero
+2026-04-24 14:20:38,021 [RMI TCP Connection(56)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-04-24 14:20:38,077 [RMI TCP Connection(56)-127.0.0.1] INFO  o.s.boot.tomcat.GracefulShutdown                   - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-24 14:20:38,086 [tomcat-shutdown] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8080"]
+2026-04-24 14:20:38,127 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown                   - Graceful shutdown complete
+2026-04-24 14:20:38,129 [RMI TCP Connection(56)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
